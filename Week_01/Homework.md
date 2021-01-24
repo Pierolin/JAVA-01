@@ -1,6 +1,6 @@
 ### Week01
 
-##### Wednesday (2021-01-06):
+#### Wednesday (2021-01-06):
 
  1.（选做）自己写一个简单的 HelloClassLoader.java，里面需要涉及基本类型，四则运行，if 和 for，然后自己分析一下对应的字节码，有问题群里讨论。
 
@@ -14,7 +14,7 @@
 
 对于线上有流量的系统，慎重使用 jmap 命令，如果没有线上系统，可以自己 run 一个 web/java 项目。或者直接查看 idea 进程。
 
-##### Sunday (2021-01-10):
+#### Sunday (2021-01-10):
 
 1.（选做）本机使用 G1 GC 启动一个程序，仿照课上案例分析一下 JVM 情况。
 可以使用 gateway-server-0.0.1-SNAPSHOT.jar 注意关闭自适应参数:-XX:-UseAdaptiveSizePolicy
