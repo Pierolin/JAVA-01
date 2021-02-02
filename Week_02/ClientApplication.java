@@ -11,7 +11,7 @@ import org.apache.http.util.EntityUtils;
 import java.io.IOException;
 
 public class ClientApplication {
-    public static String SERVER_URL = "http://localhost:8801";
+    public static String SERVER_URL = "http://localhost:8803";
     public static int SUCCESS_CODE = 200;
     public static int TIMEOUT = 2000;
 

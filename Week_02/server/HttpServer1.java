@@ -9,12 +9,8 @@ public class HttpServer1 {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(8801);
         while (true) {
-            try {
                 Socket socket = serverSocket.accept();
                 service(socket);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
     }
 
